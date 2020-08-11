@@ -4,7 +4,9 @@
   "description": "API project for freeCodeCamp",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "lint-cache": "eslint --cache src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "start": "node src/server.js"
   },
   "dependencies": {
     "cors": "2.8.5",
